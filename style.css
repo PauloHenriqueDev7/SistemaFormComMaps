@@ -1,0 +1,85 @@
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f3f3f3;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Mapa */
+  #map {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .map {
+    background-color: #eee;
+    background-image: url('img/maps.jpg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  
+  
+  .pac-container {
+    background-color: #fff;
+    z-index: 10000;
+    position: fixed !important;
+    margin-top: -16px;
+    margin-left: 16px;
+    width: calc(100% - 32px);
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .pac-item {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .pac-item:hover {
+    background-color: #f3f3f3;
+  }
+  
